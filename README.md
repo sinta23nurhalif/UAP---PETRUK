@@ -1,1 +1,1 @@
-# UAP---PETRUK
+# UAP-PETRUK
