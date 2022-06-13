@@ -24,11 +24,11 @@ cout <<"Masukan Pilihan (1-5) : ";
 			cout <<endl;
 			break;
 		case 2:
-				if (tumpukan.empty()){		//kondisi jika data masih kosong
-					cout <<">>>>>Tumpukan Baju di Lemari Sudah Kosong<<<<<<" ;
-				}else{
-					cout <<"Tumpukan Baju ["<<tumpukan.top() <<"] telah di ambil" <<endl;
-					tumpukan.pop();
-				}
-				cout <<endl;
-				break;
+			if (tumpukan.empty()){		//kondisi jika data masih kosong
+			cout <<">>>>>Tumpukan Baju di Lemari Sudah Kosong<<<<<<" ;
+			}else{
+			cout <<"Tumpukan Baju ["<<tumpukan.top() <<"] telah di ambil" <<endl;
+			tumpukan.pop();
+			}
+			cout <<endl;
+			break;
