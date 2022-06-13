@@ -15,12 +15,11 @@ cout <<" 5. Hapus"<<endl;
 
 cout <<"Masukan Pilihan (1-5) : ";
 		cin >> pilih;
-		
-			switch (pilih){			//percabangan switch case
-			case 1:
-					cout <<"Masukan Baju :"<<endl;
-					cin >> input;
-					tumpukan.push(input);
-				system("CLS");
-				cout <<endl;
-				break;
+		switch (pilih){		//percabangan switch case
+		case 1:
+			cout <<"Masukan Baju :"<<endl;
+			cin >> input;
+			tumpukan.push(input);
+			system("CLS");
+			cout <<endl;
+			break;
