@@ -47,5 +47,5 @@ cout <<"Masukan Pilihan (1-5) : ";
 			break;
 		case 5:
 			system("CLS");
-			default:
+		default:
 			cout <<"Pilihan tidak ada!";
