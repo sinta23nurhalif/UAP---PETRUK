@@ -42,3 +42,10 @@ cout <<"Masukan Pilihan (1-5) : ";
 					}
 				}
 			break;
+			case 4:
+				cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju"<<endl;
+				break;
+			case 5:
+				system("CLS");
+			default:
+				cout <<"Pilihan tidak ada!";
