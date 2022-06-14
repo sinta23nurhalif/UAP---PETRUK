@@ -7,7 +7,7 @@ int pilih;
 string input;
 
 do{
-cout <<"=================================================" <<endl;
+cout <<"=================================================" <<endl; 
 cout <<"======PROGRAM TUMPUKAN BAJU DI DALAM LEMARI======" << endl;
 cout <<" 1. Masukan baju di lemari" << endl;
 cout <<" 2. Mengambil baju dari tumpukkan di lemari" << endl;
@@ -52,7 +52,7 @@ cin >> pilih;
 	case 5:
 			system("CLS");
 		default:
-			cout <<"Pilihan tidak ada!";
+			cout <<"Pilihan tidak ada gan!";
 		}
 }while (pilih >=1 && pilih <=4);
 	   return 0;
