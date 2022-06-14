@@ -51,14 +51,14 @@ cin >> pilih;
 		break;
 			
 	case 4:
-			cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju"<<endl; //melihat tumpukan baju
+		cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju"<<endl; //melihat tumpukan baju
 		break;
 			
 	case 5:
-			system("CLS");
+		system("CLS");
 			
 	default:
-			cout <<"Pilihan tidak ada gan!";
+		cout <<"Pilihan tidak ada gan!";
 		}
 	
 }while (pilih >=1 && pilih <=4);
