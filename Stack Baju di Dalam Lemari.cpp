@@ -28,6 +28,7 @@ cin >> pilih;
 		system("CLS");
 		cout <<endl;
 		break;
+			
 	case 2:
 		if (tumpukan.empty()){		//kondisi jika data masih kosong
 			cout <<">>>>>Tumpukan Baju di Lemari Sudah Kosong gan<<<<<<" ;
@@ -37,6 +38,7 @@ cin >> pilih;
 		}
 		cout <<endl;
 		break;
+			
 	case 3:
 		if(tumpukan.empty()){			//kondisi jika data masih kosong
 			cout <<">>>>>Tumpukan Baju dilemari Sudah Kosong gan<<<<<<" ;
@@ -47,14 +49,18 @@ cin >> pilih;
 		}
 		}
 		break;
+			
 	case 4:
 			cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju"<<endl; //melihat tumpukan baju
 		break;
+			
 	case 5:
 			system("CLS");
-		default:
+			
+	default:
 			cout <<"Pilihan tidak ada gan!";
 		}
+	
 }while (pilih >=1 && pilih <=4);
 	   return 0;
 }
