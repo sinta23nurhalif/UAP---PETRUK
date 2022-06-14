@@ -47,7 +47,7 @@ cin >> pilih;
 		}
 		break;
 	case 4:
-			cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju"<<endl;
+			cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju"<<endl; //melihat tumpukan baju
 		break;
 	case 5:
 			system("CLS");
