@@ -12,4 +12,4 @@
  > Nurul Fadilah 
    2117051098
 
-Kita ngUAP Gaiss
+Kita MengUAP Gaiss :D
