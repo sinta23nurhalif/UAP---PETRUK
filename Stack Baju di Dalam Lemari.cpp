@@ -8,13 +8,16 @@ int pilih;
 string input;
 
 do{
-cout <<"PROGRAM TUMPUKAN BAJU DI DALAM LEMARI" << endl;
+
+cout <<"=================================================" <<endl;
+cout <<"======PROGRAM TUMPUKAN BAJU DI DALAM LEMARI======" << endl;
 cout <<" 1. Masukan baju di lemari" << endl;
 cout <<" 2. Mengambil baju dari tumpukkan di lemari" << endl;
 cout <<" 3. Melihat Tumpukan Baju di Lemari" <<endl;
 cout <<" 4. Melihat Tumpukan Baju di Lemari "<<endl;
 cout <<" 5. Hapus" <<endl;
-
+cout <<"=================================================" <<endl;
+	
 cout <<"Masukan Pilihan (1-5) : ";
 cin >> pilih;
 	
