@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+stack <string> tumpukan;
 int pilih;
 string input;
 
@@ -21,7 +22,7 @@ cin >> pilih;
 	
 	switch (pilih){		//percabangan switch case
 	case 1:
-		cout <<"Masukan Baju :"<<endl;
+		cout <<"Masukan Baju :"<<endl; //Memasukan Baju dilemari
 		cin >> input;
 		tumpukan.push(input);
 		system("CLS");
