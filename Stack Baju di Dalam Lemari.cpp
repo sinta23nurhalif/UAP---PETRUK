@@ -51,7 +51,7 @@ cin >> pilih;
 		break;
 			
 	case 4:
-		cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju"<<endl; //melihat tumpukan baju
+		cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju gan"<<endl; //melihat tumpukan baju
 		break;
 			
 	case 5:
