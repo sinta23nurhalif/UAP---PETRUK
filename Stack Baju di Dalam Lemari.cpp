@@ -52,7 +52,7 @@ cin >> pilih;
 	case 5:
 			system("CLS");
 		default:
-			cout <<"Pilihan tidak ada gann";
+			cout <<"Pilihan tidak ada!";
 		}
 }while (pilih >=1 && pilih <=4);
 	   return 0;
