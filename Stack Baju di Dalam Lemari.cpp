@@ -52,14 +52,18 @@ cin >> pilih;
 		break;
 			
 	case 4:
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju gan"<<endl; //melihat tumpukan baju
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		break;
 			
 	case 5:
 		system("CLS");
 			
 	default:
-		cout <<"Pilihan tidak ada gan, baca lagi coba pilihannya gan";
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+		cout <<"Pilihan tidak ada gan, baca lagi coba pilihannya gan"<<endl;
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		}
 	
 }while (pilih >=1 && pilih <=4);
