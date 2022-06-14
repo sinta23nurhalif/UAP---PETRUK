@@ -22,6 +22,7 @@ cin >> pilih;
 	
 	switch (pilih){		//percabangan switch case
 	case 1:
+		cout<<"================================================="<<endl;
 		cout <<"Masukan Baju :"<<endl; //Memasukan Baju dilemari
 		cin >> input;
 		tumpukan.push(input);
