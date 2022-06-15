@@ -12,9 +12,9 @@ cout <<"=================================================" <<endl;
 cout <<"======PROGRAM TUMPUKAN BAJU DI DALAM LEMARI======" << endl;
 cout <<" 1. Masukan baju di lemari" << endl;
 cout <<" 2. Mengambil baju dari tumpukkan di lemari" << endl;
-cout <<" 3. Melihat Tumpukan Baju di Lemari" <<endl;
+cout <<" 3. Melihat tumpukan baju di lemari" <<endl;
 cout <<" 4. Hapus "<<endl;
-cout <<" 5. Melihat Tumpukan Baju di Lemari" <<endl;
+cout <<" 5. Melihat jumlah tumpukan baju di lemari" <<endl;
 cout <<" 6. keluar Program" <<endl;
 cout <<"=================================================" <<endl;
 	
