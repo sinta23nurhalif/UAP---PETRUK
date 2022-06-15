@@ -14,7 +14,7 @@ cout <<" 1. Masukan baju di lemari" << endl;
 cout <<" 2. Mengambil baju dari tumpukkan di lemari" << endl;
 cout <<" 3. Melihat Tumpukan Baju di Lemari" <<endl;
 cout <<" 4. Hapus "<<endl;
-cout <<" 5. Melihat Tumpukan Baju di Lemar" <<endl;
+cout <<" 5. Melihat Tumpukan Baju di Lemari" <<endl;
 cout <<" 6. keluar Program" <<endl;
 cout <<"=================================================" <<endl;
 	
@@ -63,6 +63,12 @@ cin >> pilih;
 	case 5:
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju gan"<<endl; 	//melihat jumlah tumpukan baju
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+		break;
+			
+	case 6:
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+		cout <<"Program Selesai"<<endl;
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		break;
 			
