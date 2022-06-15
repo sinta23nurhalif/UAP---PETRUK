@@ -82,10 +82,8 @@ cin >> pilih;
 	default:
 		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 		cout <<"\t\t\t\t Pilihan tidak ada gan, baca lagi coba pilihannya gan\n";
-		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
-		cout <<endl;
-		cout <<endl;
-		cout <<endl;
+		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n";
+			
 		}
 	}while (pilih >=1 && pilih <=5);
 	 return 0;
