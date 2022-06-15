@@ -43,18 +43,16 @@ cin >> pilih;
 			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 			cout <<"\t\t\t\tTumpukan Baju ["<<tumpukan.top() <<"] telah di ambil\n";
 			tumpukan.pop();
-			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 		}
-		cout <<endl;
-		cout <<endl;
-		cout <<endl;
+		cout<<"\n\n\n";
 		break;
 			
 	case 3:
 		if(tumpukan.empty()){			//kondisi jika data masih kosong
-			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-			cout <<"\t\t\t\t>>>>>Tumpukan Baju dilemari Sudah Kosong gan<<<<<<"<<endl;
-			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
+			cout <<"\t\t\t\t>>>>>Tumpukan Baju dilemari Sudah Kosong gan<<<<<<\n";
+			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 		}else{
 			cout <<"\t\t\t\tTumpukan baju di dalam lemari : " <<endl;
 			while (!tumpukan.empty()){
