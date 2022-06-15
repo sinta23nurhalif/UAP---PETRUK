@@ -1,13 +1,13 @@
 #include <iostream>
-#include <stack>
+#include <stack>	//stl
 using namespace std;
 
 int main(){
-stack <string> tumpukan;
+stack <string> tumpukan;	//deklarasi variabel
 int pilih;
 string input;
 
-do{
+do{		//perulangan do while
 cout <<"=================================================" <<endl; 
 cout <<"======PROGRAM TUMPUKAN BAJU DI DALAM LEMARI======" << endl;
 cout <<" 1. Masukan baju di lemari" << endl;
@@ -49,7 +49,7 @@ cin >> pilih;
 			cout <<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		}else{
 			while (!tumpukan.empty()){
-			cout <<"["<<tumpukan.top() <<"]"<<endl;
+			cout <<"["<<tumpukan.top() <<"]"<<endl;		
 			tumpukan.pop();
 		}
 		}
@@ -57,7 +57,7 @@ cin >> pilih;
 			
 	case 4:
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-		cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju gan"<<endl; //melihat tumpukan baju
+		cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju gan"<<endl; 	//melihat tumpukan baju
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		break;
 			
