@@ -82,7 +82,7 @@ cin >> pilih;
 		break;
 			
 	default:
-		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 		cout <<"\t\t\t\t Pilihan tidak ada gan, baca lagi coba pilihannya gan"<<endl;
 		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		cout <<endl;
