@@ -76,7 +76,7 @@ cin >> pilih;
 			
 	case 6:
 		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
-		cout <<"\t\t\t\t Program Selesai"<<endl;
+		cout <<"\t\t\t\t Program Selesai\n";
 		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		exit (0);
 		break;
