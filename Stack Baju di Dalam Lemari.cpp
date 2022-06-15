@@ -9,8 +9,8 @@ int main(){
 	string input;
 
 do{		//perulangan do while
-cout <<"\t\t\t\t=================================================" <<endl; 
-cout <<"\t\t\t\t======PROGRAM TUMPUKAN BAJU DI DALAM LEMARI======" << endl;
+cout <<"\t\t\t\t=================================================\n"; 
+cout <<"\t\t\t\t======PROGRAM TUMPUKAN BAJU DI DALAM LEMARI======\n";
 cout <<"\t\t\t\t 1. Masukan baju di lemari" << endl;
 cout <<"\t\t\t\t 2. Mengambil baju dari tumpukkan di lemari" << endl;
 cout <<"\t\t\t\t 3. Melihat tumpukan baju di lemari" <<endl;
