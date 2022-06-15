@@ -73,6 +73,7 @@ cin >> pilih;
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		cout <<"Program Selesai"<<endl;
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+		exit (0);
 		break;
 			
 	default:
@@ -81,6 +82,6 @@ cin >> pilih;
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		}
 	
-}while (pilih >=1 && pilih <=4);
+}while (pilih >=1 && pilih <=5);
 	   return 0;
 }
