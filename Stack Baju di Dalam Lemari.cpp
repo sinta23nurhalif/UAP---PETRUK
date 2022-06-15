@@ -11,10 +11,10 @@ int main(){
 do{		//perulangan do while
 cout <<"\t\t\t\t=================================================\n"; 
 cout <<"\t\t\t\t======PROGRAM TUMPUKAN BAJU DI DALAM LEMARI======\n";
-cout <<"\t\t\t\t 1. Masukan baju di lemari" << endl;
-cout <<"\t\t\t\t 2. Mengambil baju dari tumpukkan di lemari" << endl;
-cout <<"\t\t\t\t 3. Melihat tumpukan baju di lemari" <<endl;
-cout <<"\t\t\t\t 4. Hapus "<<endl;
+cout <<"\t\t\t\t 1. Masukan baju di lemari\n";
+cout <<"\t\t\t\t 2. Mengambil baju dari tumpukkan di lemari\n";
+cout <<"\t\t\t\t 3. Melihat tumpukan baju di lemari\n";
+cout <<"\t\t\t\t 4. Hapus \n";
 cout <<"\t\t\t\t 5. Melihat jumlah tumpukan baju di lemari" <<endl;
 cout <<"\t\t\t\t 6. keluar Program" <<endl;
 cout <<"\t\t\t\t=================================================" <<endl;
