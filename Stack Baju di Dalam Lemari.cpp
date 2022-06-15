@@ -15,16 +15,16 @@ cout <<"\t\t\t\t 1. Masukan baju di lemari\n";
 cout <<"\t\t\t\t 2. Mengambil baju dari tumpukkan di lemari\n";
 cout <<"\t\t\t\t 3. Melihat tumpukan baju di lemari\n";
 cout <<"\t\t\t\t 4. Hapus \n";
-cout <<"\t\t\t\t 5. Melihat jumlah tumpukan baju di lemari" <<endl;
-cout <<"\t\t\t\t 6. keluar Program" <<endl;
-cout <<"\t\t\t\t=================================================" <<endl;
+cout <<"\t\t\t\t 5. Melihat jumlah tumpukan baju di lemari\n";
+cout <<"\t\t\t\t 6. keluar Program\n";
+cout <<"\t\t\t\t=================================================\n";
 	
 cout <<"\t\t\t\t Masukan Pilihan (1-6) : ";
 cin >> pilih;
 	
 	switch (pilih){		//percabangan switch case
 	case 1:
-		cout <<"\t\t\t\t============================================"<<endl;
+		cout <<"\t\t\t\t============================================\n";
 		cout <<"\t\t\t\tMasukan Baju  :" ;
 		cin >> input;		//Memasukan Baju dilemari
 		tumpukan.push(input);
