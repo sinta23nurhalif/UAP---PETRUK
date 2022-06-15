@@ -36,8 +36,8 @@ cin >> pilih;
 			
 	case 2:
 		if (tumpukan.empty()){		//kondisi jika data masih kosong
-			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl ;
-			cout <<"\t\t\t\t>>>>>Tumpukan Baju di Lemari Sudah Kosong gan<<<<<<"<<endl ;
+			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
+			cout <<"\t\t\t\t>>>>>Tumpukan Baju di Lemari Sudah Kosong gan<<<<<<\n";
 			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl ;
 		}else{
 			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
