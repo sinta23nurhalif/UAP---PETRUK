@@ -29,9 +29,7 @@ cin >> pilih;
 		cin >> input;		//Memasukan Baju dilemari
 		tumpukan.push(input);
 		system("CLS");
-		cout <<endl;
-		cout <<endl;
-		cout <<endl;
+		cout<<"\n\n\n";
 		break;
 			
 	case 2:
