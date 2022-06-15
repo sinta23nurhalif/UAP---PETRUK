@@ -54,16 +54,14 @@ cin >> pilih;
 			cout <<"\t\t\t\t>>>>>Tumpukan Baju dilemari Sudah Kosong gan<<<<<<\n";
 			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 		}else{
-			cout <<"\t\t\t\tTumpukan baju di dalam lemari : " <<endl;
+			cout <<"\t\t\t\tTumpukan baju di dalam lemari : \n";
 			while (!tumpukan.empty()){
-			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-			cout <<"\t\t\t\t ["<<tumpukan.top() <<"]"<<endl;		//menampilkan tumpukan baju
+			cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
+			cout <<"\t\t\t\t ["<<tumpukan.top() <<"]\n";		//menampilkan tumpukan baju
 			tumpukan.pop();
 			}
 		}
-		cout <<endl;
-		cout <<endl;
-		cout <<endl;
+		cout<<"\n\n\n";
 		break;
 			
 	case 4:
@@ -71,13 +69,13 @@ cin >> pilih;
 		break;
 			
 	case 5:
-		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-		cout <<"\t\t\t\t Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju gan"<<endl; 	//melihat jumlah tumpukan baju
-		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
+		cout <<"\t\t\t\t Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju gan\n"; 	//melihat jumlah tumpukan baju
+		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 		break;
 			
 	case 6:
-		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 		cout <<"\t\t\t\t Program Selesai"<<endl;
 		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		exit (0);
