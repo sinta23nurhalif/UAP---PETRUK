@@ -18,14 +18,14 @@ cout <<" 5. Melihat jumlah tumpukan baju di lemari" <<endl;
 cout <<" 6. keluar Program" <<endl;
 cout <<"=================================================" <<endl;
 	
-cout <<"Masukan Pilihan (1-5) : ";
+cout <<"Masukan Pilihan (1-6) : ";
 cin >> pilih;
 	
 	switch (pilih){		//percabangan switch case
 	case 1:
 		cout<<"============================================"<<endl;
 		cout<<" Masukan Baju  :" ;
-		cin >> input;//Memasukan Baju dilemari
+		cin >> input;		//Memasukan Baju dilemari
 		tumpukan.push(input);
 		system("CLS");
 		cout <<endl;
