@@ -37,8 +37,10 @@ cin >> pilih;
 			cout <<">>>>>Tumpukan Baju di Lemari Sudah Kosong gan<<<<<<"<<endl ;
 			cout <<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl ;
 		}else{
+			cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 			cout <<"Tumpukan Baju ["<<tumpukan.top() <<"] telah di ambil" <<endl;
 			tumpukan.pop();
+			cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		}
 		cout <<endl;
 		break;
