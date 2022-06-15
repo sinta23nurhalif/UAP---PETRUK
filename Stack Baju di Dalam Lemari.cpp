@@ -22,9 +22,9 @@ cin >> pilih;
 	
 	switch (pilih){		//percabangan switch case
 	case 1:
-		cout<<"================================================="<<endl;
-		cout <<"Masukan Baju :"<<endl; //Memasukan Baju dilemari
-		cin >> input;
+		cout<<"============================================"<<endl;
+		cout<<" Masukan Baju  :" ;
+		cin >> input;//Memasukan Baju dilemari
 		tumpukan.push(input);
 		system("CLS");
 		cout <<endl;
@@ -32,7 +32,9 @@ cin >> pilih;
 			
 	case 2:
 		if (tumpukan.empty()){		//kondisi jika data masih kosong
-			cout <<">>>>>Tumpukan Baju di Lemari Sudah Kosong gan<<<<<<" ;
+			cout <<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl ;
+			cout <<">>>>>Tumpukan Baju di Lemari Sudah Kosong gan<<<<<<"<<endl ;
+			cout <<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl ;
 		}else{
 			cout <<"Tumpukan Baju ["<<tumpukan.top() <<"] telah di ambil" <<endl;
 			tumpukan.pop();
@@ -42,7 +44,9 @@ cin >> pilih;
 			
 	case 3:
 		if(tumpukan.empty()){			//kondisi jika data masih kosong
-			cout <<">>>>>Tumpukan Baju dilemari Sudah Kosong gan<<<<<<" ;
+			cout <<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+			cout <<">>>>>Tumpukan Baju dilemari Sudah Kosong gan<<<<<<"<<endl;
+			cout <<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		}else{
 			while (!tumpukan.empty()){
 			cout <<"["<<tumpukan.top() <<"]"<<endl;
