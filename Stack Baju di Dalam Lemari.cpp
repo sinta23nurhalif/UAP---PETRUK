@@ -49,7 +49,7 @@ cin >> pilih;
 			cout <<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		}else{
 			while (!tumpukan.empty()){
-			cout <<"["<<tumpukan.top() <<"]"<<endl;		
+			cout <<"["<<tumpukan.top() <<"]"<<endl;		//menampilkan tumpukan baju
 			tumpukan.pop();
 		}
 		}
@@ -57,7 +57,7 @@ cin >> pilih;
 			
 	case 4:
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-		cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju gan"<<endl; 	//melihat tumpukan baju
+		cout <<"Jumlah Tumpukan Baju di Lemari ada  " <<tumpukan.size() <<" baju gan"<<endl; 	//melihat jumlah tumpukan baju
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		break;
 			
