@@ -84,7 +84,7 @@ cin >> pilih;
 	default:
 		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 		cout <<"\t\t\t\t Pilihan tidak ada gan, baca lagi coba pilihannya gan\n";
-		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+		cout <<"\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 		cout <<endl;
 		cout <<endl;
 		cout <<endl;
