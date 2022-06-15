@@ -49,6 +49,7 @@ cin >> pilih;
 			cout <<">>>>>Tumpukan Baju dilemari Sudah Kosong gan<<<<<<"<<endl;
 			cout <<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		}else{
+			cout <<"Tumpukan baju di dalam lemari : " <<endl;
 			while (!tumpukan.empty()){
 			cout <<"["<<tumpukan.top() <<"]"<<endl;		//menampilkan tumpukan baju
 			tumpukan.pop();
